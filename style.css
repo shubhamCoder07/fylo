@@ -233,15 +233,89 @@ footer{
     padding-top: 1rem;
     list-style: none;
 }
-/* @media screen and (max-width: 650px){
-    body{
+@media screen and (max-width: 650px) {
+    .flex2 {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
-    .logo.flex1{
-     flex-direction: row;
+    .flex-btn input{
+        width: 80%;
+    }
+    .flex-btn button{
+        width: 80%;
+    }
+    .logo{
+        font-size:2rem;
+    }
+    .logo img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+    .logo ul{
+        margin-left: -1rem;
+    }
+    
+    .logo ul  a{              
+        margin-right: -0.7rem;
+        margin-left: -2rem;
     }
     .flex2 h1{
-        text-align: center;
+        font-size: 1rem;
     }
-} */
+    .flex2 p{
+        font-size: 0.7rem;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last2 {
+        width: 50%;
+        margin-top: -1rem;
+    }
+
+    .last3 {
+        width: 50%;
+        margin-top: -1rem;
+    }
+
+    .last1 {
+        width: 50%;
+    }
+
+    .last-second {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .last-second-one h1 {
+        font-size: 1.2rem;
+    }
+    .last-second-one p{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .last-second-two{
+        margin-top: -1rem;
+    }
+    .last-second-two input{
+        width: 80%;
+    }
+    .last-second-two button{
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+}
 
