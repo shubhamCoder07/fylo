@@ -253,12 +253,13 @@ footer{
         margin-left: 1rem;
     }
     .logo ul{
-        margin-left: -1rem;
+        margin-left: -3rem;
     }
     
     .logo ul  a{              
         margin-right: -0.7rem;
-        margin-left: -2rem;
+        /* margin-left: -rem; */
+        font-size: 0.4rem;
     }
     .flex2 h1{
         font-size: 1rem;
@@ -316,6 +317,5 @@ footer{
         margin-bottom: 1rem;
         margin-left: 2rem;
     }
-
 }
 
